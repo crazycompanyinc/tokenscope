@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TokenScope — Real-Time LLM Token Budget Manager</title>
+<meta name="description" content="TokenScope helps engineering teams track LLM token spend in real-time. Prevent budget blowouts with proactive alerts and per-project allocation.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0f;--surface:#111118;--surface2:#1a1a24;--border:#2a2a3a;--text:#e8e8f0;--dim:#8888a0;--accent:#22c55e;--accent-glow:rgba(34,197,94,0.2);--green:#22c55e;--yellow:#eab308;--red:#ef4444}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,15,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:0 2rem;height:64px;display:flex;align-items:center;justify-content:space-between}
+.hero{padding:12rem 2rem 6rem;text-align:center}
+.container{max-width:1000px;margin:0 auto;padding:0 2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin:4rem 0}
+.card{background:var(--surface);border:1px solid var(--border);padding:2rem;border-radius:16px}
+h1{font-size:4rem;font-weight:900;letter-spacing:-0.05em;margin-bottom:1.5rem}
+.accent{color:var(--accent)}
+</style>
+</head>
+<body>
+<nav>
+  <div style="font-weight:800;font-size:1.25rem;color:var(--accent)">⬡ TokenScope</div>
+  <div style="display:flex;gap:2rem;align-items:center">
+    <a href="#features" style="color:var(--dim);text-decoration:none">Features</a>
+    <a href="#pricing" style="color:var(--dim);text-decoration:none">Pricing</a>
+    <a href="https://buy.stripe.com/cNi8wO86Cbpe5Sa5ZYgA80h" style="background:var(--accent);color:white;padding:0.5rem 1.25rem;border-radius:8px;font-weight:600;text-decoration:none">Get Started</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Stop blowing your LLM <span class="accent">token budget</span>.</h1>
+  <p style="font-size:1.25rem;color:var(--dim);margin-bottom:3rem">Real-time LLM token spend tracking for engineering teams. Proactive alerts, per-project allocation, and multi-provider support.</p>
+  <a href="#pricing" style="background:var(--accent);color:white;padding:1rem 2rem;border-radius:12px;font-weight:600;text-decoration:none;font-size:1.1rem">Get Started For Free</a>
+</section>
+
+<section id="features" class="container">
+  <div class="grid">
+    <div class="card"><h3>Real-Time Visibility</h3><p>Track token usage across all your AI providers instantly.</p></div>
+    <div class="card"><h3>Proactive Alerts</h3><p>Get notified at 50/80/95% of your defined budget.</p></div>
+    <div class="card"><h3>Per-Project Allocation</h3><p>Assign token quotas to individual projects and teams.</p></div>
+  </div>
+</section>
+
+<section id="pricing" class="container" style="padding:6rem 2rem">
+  <h2 style="text-align:center;font-size:2.5rem;margin-bottom:4rem">Pricing</h2>
+  <div class="grid">
+    <div class="card"><h3>Free</h3><h1>$0</h1><ul><li>1 Project</li><li>Basic Monitoring</li></ul></div>
+    <div class="card" style="border-color:var(--accent)"><h3>Pro</h3><h1>$19/mo</h1><ul><li>Unlimited Projects</li><li>Proactive Alerts</li><li>API Access</li></ul></div>
+  </div>
+</section>
+</body>
+</html>
